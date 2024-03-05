@@ -11,6 +11,7 @@
 		456829642B97BABA008ACF86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456829632B97BABA008ACF86 /* ContentView.swift */; };
 		456829662B97BABC008ACF86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456829652B97BABC008ACF86 /* Assets.xcassets */; };
 		456829692B97BABC008ACF86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456829682B97BABC008ACF86 /* Preview Assets.xcassets */; };
+		456829702B97BB97008ACF86 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4568296F2B97BB97008ACF86 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		456829632B97BABA008ACF86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		456829652B97BABC008ACF86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		456829682B97BABC008ACF86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4568296F2B97BB97008ACF86 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				456829612B97BABA008ACF86 /* ColorizedAppSwiftUIApp.swift */,
 				456829632B97BABA008ACF86 /* ContentView.swift */,
+				4568296F2B97BB97008ACF86 /* SettingsView.swift */,
 				456829652B97BABC008ACF86 /* Assets.xcassets */,
 				456829672B97BABC008ACF86 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				456829702B97BB97008ACF86 /* SettingsView.swift in Sources */,
 				456829642B97BABA008ACF86 /* ContentView.swift in Sources */,
 				456829622B97BABA008ACF86 /* ColorizedAppSwiftUIApp.swift in Sources */,
 			);
