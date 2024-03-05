@@ -15,7 +15,8 @@ struct ContentView: View {
         var body: some View {
             VStack {
                 Color(red: redValue/255, green: greenValue/255, blue: blueValue/255)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .frame(width: 360, height: 140)
+                    .padding()
                 
                 HStack {
                     Text("Red: \(Int(redValue))").padding(.horizontal)
